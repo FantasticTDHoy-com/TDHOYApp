@@ -1,0 +1,35 @@
+# To get started with Dependabot version updates, you'll need to specify which
+# package ecosystems to update and where the package manifests are located.
+# Please see the documentation for all configuration options:
+# https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+version: 2
+updates:
+  - package-ecosystem: "" # See documentation for possible values
+    directory: "/" # Location of package manifests
+    schedule:
+      interval: "daily"
+# Para comenzar con las actualizaciones de la versión de Dependabot, deberá especificar cuáles
+ # ecosistemas de paquetes para actualizar y dónde se encuentran los manifiestos de paquetes.
+ # Consulte la documentación de todas las opciones de configuración:
+ # https://help.github.com/github/administering-a-repository/configuration-options-for-dependency-updates
+
+versión: 2
+actualizaciones:
+ - paquete-ecosistema:  " "#    Ver documentación para posibles valores
+ directorio:  "/"   # Ubicación de los manifiestos del paquete
+ horario:
+ intervalo:  "diario
+nombre; Extraer// solicitar etiquetador
+En { pull_request_target }
+Permisos:
+Contenido: leer
+pull_request: wnle
+empleos:
+triaje:
+rones- on: ubuntu -latest
+pasos:
+.uses: acciones/labeler@v2
+con:
+vepo-token: $ {{ secretos. GitHub_Token;}
+      }
