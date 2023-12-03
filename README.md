@@ -24,6 +24,14 @@
 ## 🤸 Usage
 
 ### 🚥 Limit releases to pushes to tags
+<label>
+  Do you like peas?
+  <input type="checkbox" name="peas" />
+</label>
+<label for="username">Enter your username:</label>
+<input id="username" name="username" type="text" />
+<label for="username">Forgot your username?</label>
+
 
 Typically usage of this action involves adding a step to a build that
 is gated pushes to git tags. You may find `step.if` field helpful in accomplishing this
